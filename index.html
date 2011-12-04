@@ -1,0 +1,137 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Markdown Viewer 0.0.1</title>
+  <meta name="description" content="Simple browser based mardkdown files viewer">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/mvisor.css">
+  
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+<div class="idle" id="app-wrapper">
+  
+  <div id="toolbar">
+    <h1>Mvisor 0.0.1</h1>
+    <div class="btns">
+      <button class="btn primary ui-toggler" data-target="filecontrol">add files</button>
+      <button class="btn ui-toggler" data-target="example">example</button>
+      <button class="btn ui-toggler" data-target="info">info</button>
+    </div>
+  </div>
+
+  <div id="app">  
+    <div class="filecontrol" id="filecontrol" data-num-files="0"> 
+      <p id="droparea" class="drop">drop your markdown files here!</p>
+      <form><p>... or <input type="file" id="files" name="files[]" multiple /></p></form>
+    </div>
+
+    <div class="docs">
+
+      <!--BEGIN DOC TEST-->
+      <div class="doc" id="example">
+        <p class="meta">markdown styled example <a href="#" class="close">×</a></p>
+        <div class="content">
+    
+          <h1>this is a H1</h1>
+    
+          <h2>this is a H2</h2>
+    
+          <h3>this is a H3</h3>
+    
+          <p>
+              Lorem ipsum dolor <em>sit amet</em>, consectetur adipiscing elit. 
+              Quisque sit amet lacus velit. Duis rutrum, nisi ut varius egestas, 
+              <a href="http://google.com">enim mi dignissim diam</a>, et pretium elit 
+              nunc non risus. Nullam augue tortor, commodo ac tincidunt ut, lacinia 
+              in est. <strong>Aenean</strong> et erat quis sapien egestas luctus ut eu arcu. 
+          </p>
+    
+          <blockquote>
+            <p>This is a blockquote. Lorem ipsum dolor sit amet,
+            consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.</p>
+          </blockquote>
+    
+          <ul>
+          <li>list item 1</li>
+          <li>list item 2</li>
+          <li>list item 3 <a href="http://google.com">with link</a></li>
+          </ul>
+    
+          <h4><a href="http://google.com">this is a h4 with link</a></h4>
+    
+          <pre><code>function helloWorld(){
+            alert('hello crazy world');
+          }
+          </code></pre>
+        </div>
+      </div>
+      <!--END DOC TEST -->
+
+      <!--BEGIN DOC INFO -->
+      <div class="doc" id="info">
+        <p class="meta">info <a href="#" class="close">×</a></p>
+        <div class="content">
+          <h1>Mvisor 0.0.1</h1>
+
+          <p>Mvisor is a simple, browser based markdown files viewer.</p>
+
+          <h2>components</h2>
+
+          <ul>
+          <li><a href="http://modernizr.com">Modernizr</a></li>
+          <li><a href="http://twitter.github.com/bootstrap/">Twitter bootstrap</a></li>
+          <li><a href="http://jquery.com">jQuery</a></li>
+          <li><a href="http://www.attacklab.net/">showdown.js</a></li>
+          <li><a href="https://github.com/davidfq/FileApiHelper">File Api Helper</a></li>
+          </ul>
+
+          <h2>resources</h2>
+
+          <ul>
+          <li><a href="http://daringfireball.net/projects/markdown/syntax">Markdown syntax documentation</a></li>
+          <li><a href="http://www.olympum.com/future/markdown-an-open-document-workflow/">Markdown, An Open Document Workflow</a></li>
+          <li><a href="http://www.html5rocks.com/en/tutorials/file/filesystem/">Exploring the FileSystem APIs</a></li>
+          </ul>
+
+          <h2>supported browers</h2>
+
+          <ul>
+          <li>Chrome 11.0 - 16.0</li>
+          <li>Firefox 4.0 - 9.0</li>
+          <li>IE 10 ?</li>
+          <li>Opera 10.1 - 12.1</li>
+          </ul>
+
+          <h2>warning</h2>
+
+          <p>Mvisor has been developed for personal use, code hasn't been tested, is not optimized and it could be improved a lot.</p>
+
+          <h2>license</h2>
+
+          <p>The unlicense (a.k.a. public domain)</p>
+          
+        </div>
+      </div>
+      <!--END DOC INFO -->
+
+    </div>
+
+  </div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.4.min.js"><\/script>')</script>
+  <script src="js/libs/showdown.js"></script>
+  <script src="js/libs/fileapihelper.js"></script>
+  <script src="js/mvisor.js"></script>
+
+</body>
+</html>

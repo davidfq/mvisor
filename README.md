@@ -1,0 +1,33 @@
+# Mvisor 0.0.1
+
+Mvisor is a simple, browser based markdown files viewer.
+
+## components
+
+- [Modernizr](http://modernizr.com)
+- [Twitter bootstrap](http://twitter.github.com/bootstrap/)
+- [jQuery](http://jquery.com)
+- [showdown.js](http://www.attacklab.net/)
+- [File Api Helper](https://github.com/davidfq/FileApiHelper)
+
+## resources
+
+- [Markdown syntax documentation](http://daringfireball.net/projects/markdown/syntax)
+- [Markdown, An Open Document Workflow](http://www.olympum.com/future/markdown-an-open-document-workflow/)
+- [Exploring the FileSystem APIs](http://www.html5rocks.com/en/tutorials/file/filesystem/)
+
+
+## supported browers
+
+- Chrome 11.0 - 16.0
+- Firefox 4.0 - 9.0
+- IE 10 ?
+- Opera 10.1 - 12.1
+
+## warning
+
+Mvisor has been developed for personal use, code hasn't been tested, is not optimized and it could be improved a lot.
+
+## license
+
+The unlicense (a.k.a. public domain)
