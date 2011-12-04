@@ -2,6 +2,7 @@
 
 Mvisor is a simple, browser based markdown files viewer. A hosted copy [available here](http://davidfq.github.com/mvisor)!
 
+
 ## components
 
 - [Modernizr](http://modernizr.com)
@@ -12,8 +13,14 @@ Mvisor is a simple, browser based markdown files viewer. A hosted copy [availabl
 
 ## resources
 
+### markdown
+
 - [Markdown syntax documentation](http://daringfireball.net/projects/markdown/syntax)
-- [Markdown, An Open Document Workflow](http://www.olympum.com/future/markdown-an-open-document-workflow/)
+- [Markdown, an Open Document Workflow](http://www.olympum.com/future/markdown-an-open-document-workflow/)
+- [Dillinger, the last markdown editor](http://dillinger.io/)
+
+### dev
+
 - [Exploring the FileSystem APIs](http://www.html5rocks.com/en/tutorials/file/filesystem/)
 
 
