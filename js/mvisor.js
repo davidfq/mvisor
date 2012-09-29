@@ -61,7 +61,6 @@ var MDV = {
 	},
 
 	showFile: function(file) {
-
 		var converter = new Attacklab.showdown.converter(),
 			html = converter.makeHtml(file.text),
 			$doc = $('<div class="doc markdown"></div>'),
