@@ -1,6 +1,6 @@
-# Mvisor 0.0.1
+# mvisor 0.0.2
 
-Mvisor is a simple, browser based markdown files viewer. A hosted copy [available here](http://davidfq.github.com/mvisor)!
+mvisor is a simple, browser based markdown files viewer. A hosted copy [available here](http://davidfq.github.com/lab/mvisor)!
 
 
 ## components
@@ -26,14 +26,15 @@ Mvisor is a simple, browser based markdown files viewer. A hosted copy [availabl
 
 ## supported browers
 
-- Chrome 11.0 - 16.0
-- Firefox 4.0 - 9.0
+- Chrome 11.0 - 22.0
+- Firefox 4.0 - 12.0
+- Safari 6.0
 - IE 10 ?
 - Opera 10.1 - 12.1
 
 ## warning
 
-Mvisor has been developed for personal use, code hasn't been tested, is not optimized and it could be improved a lot.
+mvisor has been developed for personal use, code hasn't been tested, is not optimized and it could be improved a lot.
 
 ## license
 
